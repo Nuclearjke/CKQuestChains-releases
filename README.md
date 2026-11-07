@@ -2,7 +2,7 @@
 
 A **WoW Forever** addon that answers "is this quest worth starting?" at the quest giver.
 
-**Status: 0.2.1 is the first public test version.** Please report problems; a BugSack error text helps most.
+**Status: public test version.** Please report problems; a BugSack error text helps most.
 
 ## Install
 
@@ -28,6 +28,11 @@ Then `/reload`.
   and either/or quests are labelled. A branch into another storyline shows as its own chain.
 - **Gaps:** quests new to Forever show "No chain data for this quest."
 
+**Enemy tooltips.** Mouse over an enemy to see the quests you can still get for it: quests that ask you to kill
+it or need an item it drops. Each shows its level and a grey line with who gives it and where.
+
+**Chain icons.** In the quest log, quests that are part of a chain have a small gold chain icon after their title.
+
 **Dungeon Journal quests** (with ForeverDungeonJournal installed). Item amounts (have / need) and drop rates,
 with expected kills, on the Required Items cards of dungeon quests and their prerequisite chains, and in item
 tooltips.
@@ -36,7 +41,7 @@ tooltips.
 
 - GPL v3 (see `LICENSE.txt`).
 - Quest chains, quest goals and classic rewards: [CMaNGOS classic-db](https://github.com/cmangos/classic-db) (GPL v3).
-- Drop rates: Wowhead Forever item pages. Rates marked (?) come from Wowhead Classic.
+- Drop rates, Forever quest XP, money, givers and objective targets: Wowhead Forever pages. Rates marked (?) come from Wowhead Classic.
 - Zone names: WoW Forever client tables via wago.tools.
 - Works alongside ForeverDungeonJournal by Exehn. None of its data or code is included.
 - World of Warcraft names and data © Blizzard Entertainment.
